@@ -14,5 +14,9 @@
 ## 二叉树
 ## 图
 ## 海量数据
+## 数组
+1. [剑指offer-面试题3：查找数组中的重复数字](./array/findRepeatedNumber.go)
 ## 分治策略
-1. [最大子数组](./divideAndConquer/findMaximumSubArray.go)
+1. [算法导论-最大子数组](./divideAndConquer/findMaximumSubArray.go)
+## 设计模式
+1. [单例模式](./designPattern/singleton.go)
