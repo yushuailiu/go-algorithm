@@ -9,6 +9,7 @@
 1. [二分查找](./search/binarySearch.go)
 ## 堆栈
 ## 链表
+1. [剑指offer-面试题6：反向打印链表](./list/printListNodeReverse.go)  
 ## 哈希
 ## 字符串
 ## 二叉树
