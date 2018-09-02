@@ -110,3 +110,27 @@ func TestCountSort(t *testing.T) {
 		}
 	}
 }
+
+func TestHeapSort(t *testing.T) {
+	for _, item := range list {
+		origin := make([]int, len(item["origin"]))
+		copy(origin, item["origin"])
+		HeapSort(origin)
+		if !listEqual(origin, item["result"]) {
+			t.Error("count sort", item["origin"], "should be", item["result"],
+				"but get", origin)
+		}
+	}
+}
+
+func TestMergeSort(t *testing.T) {
+	for _, item := range list {
+		origin := make([]int, len(item["origin"]))
+		copy(origin, item["origin"])
+		MergeSort(origin)
+		if !listEqual(origin, item["result"]) {
+			t.Error("count sort", item["origin"], "should be", item["result"],
+				"but get", origin)
+		}
+	}
+}

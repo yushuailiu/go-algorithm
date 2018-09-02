@@ -5,11 +5,14 @@
 3. [插入排序](./sort/insertionSort.go)
 4. [快速排序](./sort/quickSort.go)
 5. [选择排序](./sort/selectionSort.go)
+6. [堆排序](./sort/heapSort.go)
+7. [合并排序](./sort/mergeSort.go)
+8. [计数排序]
 ## 查找
 1. [二分查找](./search/binarySearch.go)
 ## 堆栈
 ## 链表
-1. [剑指offer-面试题6：反向打印链表](./list/printListNodeReverse.go)  
+1. [剑指offer-面试题6：反向打印链表](./list/printListNodeReverse.go)
 ## 哈希
 ## 字符串
 ## 二叉树
