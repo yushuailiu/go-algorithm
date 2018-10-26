@@ -64,11 +64,34 @@ func TestQuickSort2(t *testing.T) {
 	}
 }
 
-func TestBubbleSort(t *testing.T) {
+func TestBubbleSort1(t *testing.T) {
 	for _, item := range list {
 		origin := make([]int, len(item["origin"]))
 		copy(origin, item["origin"])
-		BubbleSort(origin)
+		BubbleSort1(origin)
+		if !listEqual(origin, item["result"]) {
+			t.Error("bubble sort", item["origin"], "should be", item["result"],
+				"but get", origin)
+		}
+	}
+}
+func TestBubbleSort2(t *testing.T) {
+	for _, item := range list {
+		origin := make([]int, len(item["origin"]))
+		copy(origin, item["origin"])
+		BubbleSort2(origin)
+		if !listEqual(origin, item["result"]) {
+			t.Error("bubble sort", item["origin"], "should be", item["result"],
+				"but get", origin)
+		}
+	}
+}
+
+func TestBubbleSort3(t *testing.T) {
+	for _, item := range list {
+		origin := make([]int, len(item["origin"]))
+		copy(origin, item["origin"])
+		BubbleSort3(origin)
 		if !listEqual(origin, item["result"]) {
 			t.Error("bubble sort", item["origin"], "should be", item["result"],
 				"but get", origin)
