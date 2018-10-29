@@ -1,5 +1,6 @@
 package sort
 
+// BubbleSort1 是冒泡排序的最近本实现
 func BubbleSort1(list []int) {
 	n := len(list)
 	for i := 0; i < n; i++ {
@@ -11,6 +12,7 @@ func BubbleSort1(list []int) {
 	}
 }
 
+// BubbleSort2 是冒泡排序的一个简单地优化，每次可以少比较一次
 func BubbleSort2(list []int) {
 	n := len(list)
 	for i := 0; i < n; i++ {
@@ -22,6 +24,8 @@ func BubbleSort2(list []int) {
 	}
 }
 
+// BubbleSort3 是对冒泡排序的一个终极优化，最极端的情况下只需要遍历一次
+// 即可完成排序
 func BubbleSort3(list []int) {
 	n := len(list)
 	flag := true
