@@ -28,3 +28,6 @@
 ## golang - 基于 golang 语言特性或操作系统等层面的算法等
 1. [两维数组遍历](./golang/multiArray_test.go) [讲解地址](https://www.liuyushuai.com/blog/RlL8Boyj6z2g)
 2. [嵌套循环性能](./golang/nest_for_test.go) [讲解地址](https://www.liuyushuai.com/blog/qLnJ6N2j6MO8)
+## Lintcode
+[Easy1. A + B Problem](./lintcode/from0to50/a-b-problem.go)
+[Easy2. Trailing Zeros](./lintcode/from0to50/trailing-zero.go)
