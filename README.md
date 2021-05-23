@@ -14,6 +14,7 @@
 ## 链表
 1. [剑指offer-面试题6：反向打印链表](./list/printListNodeReverse.go) [讲解地址](https://www.liuyushuai.com/blog/mbENBZDd63VL)
 2. [合并有序链表](./list/mergeOrderList.go) [讲解地址](https://www.liuyushuai.com/blog/z8WXA8X0Apdj)
+3. [单向链表是否有环](./list/listHasRing.go)
 ## 哈希
 ## 字符串
 ## 二叉树
