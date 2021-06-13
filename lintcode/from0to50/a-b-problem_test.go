@@ -1,6 +1,8 @@
 package from0to50
 
-import "testing"
+import (
+	"testing"
+)
 
 var list = []map[string]int{
  	{

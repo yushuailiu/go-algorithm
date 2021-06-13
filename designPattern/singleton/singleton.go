@@ -1,5 +1,5 @@
 // 单例模式
-package designPattern
+package singleton
 
 import "sync"
 

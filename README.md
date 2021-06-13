@@ -25,7 +25,13 @@
 ## 分治策略
 1. [算法导论-最大子数组](./divideAndConquer/findMaximumSubArray.go)
 ## 设计模式
-1. [单例模式](./designPattern/singleton.go)
+1. [单例模式](./designPattern/singleton/singleton.go)
+2. [简单工厂模式](./designPattern/simpleFactory)
+3. [抽象工厂模式](./designPattern/abstractFactory)
+4. [建造者模式](./designPattern/builder)
+5. [原型模式](./designPattern/prototype)
+6. [适配器模式](./designPattern/adapter)
+
 ## golang - 基于 golang 语言特性或操作系统等层面的算法等
 1. [两维数组遍历](./golang/multiArray_test.go) [讲解地址](https://www.liuyushuai.com/blog/RlL8Boyj6z2g)
 2. [嵌套循环性能](./golang/nest_for_test.go) [讲解地址](https://www.liuyushuai.com/blog/qLnJ6N2j6MO8)
