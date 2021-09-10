@@ -157,3 +157,27 @@ func TestMergeSort(t *testing.T) {
 		}
 	}
 }
+
+func TestShellSort(t *testing.T) {
+	for _, item := range list {
+		origin := make([]int, len(item["origin"]))
+		copy(origin, item["origin"])
+		ShellSort(origin)
+		if !listEqual(origin, item["result"]) {
+			t.Error("shell sort", item["origin"], "should be", item["result"],
+				"but get", origin)
+		}
+	}
+}
+
+func TestSelectSort(t *testing.T) {
+	for _, item := range list {
+		origin := make([]int, len(item["origin"]))
+		copy(origin, item["origin"])
+		SelectSort(origin)
+		if !listEqual(origin, item["result"]) {
+			t.Error("selection sort", item["origin"], "should be", item["result"],
+				"but get", origin)
+		}
+	}
+}

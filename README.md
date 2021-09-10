@@ -8,6 +8,7 @@
 6. [堆排序](./sort/heapSort.go)
 7. [合并排序](./sort/mergeSort.go)
 8. [基数排序](./sort/radixSort.go)
+9. [希尔排序](./sort/shellSort.go)
 ## 查找
 1. [二分查找](./search/binarySearch.go)
 ## 堆栈
